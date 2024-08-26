@@ -1,0 +1,403 @@
+body {
+    margin: 0%;
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: grey;
+
+}
+.navbar{
+    background-image: url(https://www.pcworld.com/wp-content/uploads/2024/06/Netflix-Hintergrund.jpg?quality=50&strip=all);
+}
+.navbar{
+    height:100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.nav-top1{
+    height: 120px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 24px;
+} 
+svg{
+    fill: red;
+    position: absolute;
+    left: 140px;
+    top: 40px;
+    width: 200px;
+}
+.nav-top2{ 
+    height: 40px;
+    width: 163px;
+    /* padding: 3px;
+    margin-left: -12px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-select{
+    height: 32px;
+    padding: 0 30px;
+    font-size: 25px;
+    margin: 3px;
+    border: 1px solid white;
+    border-radius:5px;
+    position: absolute;
+    right: 280px;
+    top: 40px;
+    /* padding: 6px 28px 6px 34px; */
+}
+.nav-select:hover{
+    color: red;
+    background-color: black;
+}
+.nav-select a{
+    text-decoration: none;
+    color: #ffffff;
+}
+ 
+.nav-sign button{
+width: 80px;
+padding: 10px 0;
+font-size: 15px;
+background-color: red;
+border: none;
+border-radius:5px;
+position: absolute;
+right: 200px;
+top: 40px;
+}
+.nav-sign button a{
+    text-decoration: none;
+    color: #fff;
+}
+.nav-sign button:hover{
+    background-color: rgb(184, 12, 12);
+}
+
+ 
+.nav-mid{
+    height: 464px;
+    width: 312px;
+    margin-top: -32px;
+    padding: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.more1 h1 {
+    height:48 px;
+    width: 800px;
+    font-size: 40px;
+    margin: 0px 0px 8px;
+}
+
+.watch p {
+    height: 20px;
+    width: 400px;
+    font-size: 20px;
+    margin-top: 0.85px;
+    /* margin:0px 0px 16px ; */
+}
+
+.more2 h3{
+    height: 48px;
+    width: 750px;
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 0.85rem;  
+} 
+.input{
+    height: 128px;
+    width: 612px;
+     
+}
+.input input {
+    width: 350px;
+    height: 50px;
+    border-radius:5px;
+    border: none;
+}
+
+.input button {
+    height: 55px;
+    width: 120px;
+    background-color: red;
+    font-size: 15px;
+    transition: 0.2s;
+    border-radius:5px;
+    border: none;
+}
+
+.input button a {
+    color:#ffffff;
+    font-size: 15px;
+    text-decoration: none;
+}
+.input button:hover {
+    background-color: rgb(184, 12, 12);
+}
+  
+/* hero */
+/* box */
+ .hero-section {
+    margin-top: 10px;
+    background-color: #141414;
+}
+
+.hero-section {
+    height: 600px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+
+.tv {
+    width: 100%;
+    text-align: center;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 32px;
+    color: #ffffff;
+}
+
+.tv h2 {
+    padding-top: 150px;
+    font-size: 45px;
+}
+
+.tv p {
+    font-size: 25px;
+    margin-left: 16px;
+    color: #ffffff;
+}
+
+.img {
+    padding-top: 20px;
+    padding-right: 100px;
+
+}
+
+/* box1 */
+
+.tv1 {
+    width: 100%;
+    text-align: center;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 32px;
+    color: #ffffff;
+}
+
+.tv1 h2 {
+    padding-right: 150px;
+    padding-top: 150px;
+    font-size: 50px;
+}
+
+.tv1 p {
+    font-size: 25px;
+    margin-left: 16px;
+    margin-right: 150px;
+    color: #ffffff;
+}
+
+/* box2 */
+.tv2 {
+    width: 100%;
+    text-align: center;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 32px;
+    color: #ffffff;
+}
+
+.tv2 h2 {
+    padding-right: 150px;
+    padding-top: 110px;
+    padding-left: 125px;
+    font-size: 50px;
+}
+
+.tv2 p {
+    font-size: 25px;
+    margin-left: 125px;
+    margin-right: 150px;
+    color: #ffffff;
+}
+
+.img2 {
+    padding-top: 60px;
+    padding-right: 100px;
+
+}
+
+/* box3 */
+
+.tv3 {
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 32px;
+    color: #ffffff;
+} 
+
+.tv3 h2 {
+    padding-top: 150px;
+    padding-right: 125px;
+    font-size: 45px;
+}
+
+.tv3 p {
+    font-size: 25px;
+    margin-left: 16px;
+    padding-right: 125px;
+    color: #ffffff;
+} 
+
+ .img3 {
+    padding-top: 40px;
+    padding-right: 100px;  
+
+}
+ 
+
+/* footer */
+.foot-panel1{
+    margin-top:10px;
+    width: 100%;
+    height: 835px;
+    background-color: black;
+}
+.foot-panel2{
+    height: px;
+    color: #ffffff;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;    
+}
+.foot-panel3 a{
+    height: 24px;
+    display: flex;
+    background-color: rgb(45,45,45);
+    text-decoration: none;
+    font-size: 18px;
+    color: #ffffff;
+    padding: 24px;
+    position: relative;
+     
+   
+}
+.foot-panel3 a{
+    margin: 6px;
+}
+.foot-panel3 a i{
+    margin:auto; 
+    color: #ffffff;
+    font-size: 24px; 
+}
+
+.foot-panel3 a:hover{
+    background-color: #141414;
+}
+.Qu{
+    box-sizing: content-box;
+    padding-left:160px;
+    padding-right:160px ; 
+}
+.Qu a{
+  display: flex;
+}
+.no1{
+    gap: 50vw;
+}
+.no2{
+    gap: 43vw;
+}
+.no3{
+    gap: 48vw;
+}
+.no4{
+    gap: 49.5vw;
+}
+.no5{
+    gap: 43.5vw;
+}
+.no6{
+    gap: 46.5vw;
+}
+
+.panel{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input1{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.input button{
+    margin-left: 4px;
+}
+.input1 input {
+    width: 450px;
+    height: 50px;
+    background-color: none;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius:5px;
+}
+
+.input1 button {
+    height: 55px;
+    width: 150px;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius:5px;
+    margin: 4px;
+}
+
+.input1 button a {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.input1 button:hover {
+    background-color: rgb(184, 12, 12);
+} 
+/* foot-panel4 */
+  
+  
+  .panel1{
+    margin-top: 10px;
+    background-color: black;
+    height: 500px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+  }  
+  ul{
+    margin-top: 40px;
+     
+  } 
+   ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #ffffff;
+  } 
+   
+
